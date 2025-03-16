@@ -1,0 +1,6 @@
+flask
+numpy<2  # Ensures compatibility with models
+transformers
+torch
+groq
+gunicorn  # Required for deployment
