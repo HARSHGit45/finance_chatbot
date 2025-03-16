@@ -1,6 +1,8 @@
-flask
-numpy<2  # Ensures compatibility with models
-transformers
-torch
+Flask
+faiss-cpu
+numpy<2
+sentence-transformers
+python-dotenv
+requests
 groq
-gunicorn  # Required for deployment
+gunicorn
